@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 30rem;
+    background-color:#311465;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 120em 16em;
+    border-bottom-right-radius: 120em 16em;
+}
+
+.full{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+p{ 
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.btn{
+    float: right;
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(153, 255, 153);
+    text-decoration-thickness: 2px;
+    background-color:#311465;
+    font-size: 16px;
+    color: white;
+}
+.tail p{
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding-top: 60px; 
+    color:white;
+}
+.btn1{
+    margin-left: 580px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: aquamarine;
+    margin-top: 40px;
+    border: none;
+}
+.btn1:hover{
+    color: rgb(66, 65, 65);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(161, 88, 230);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid 2px rgb(75, 73, 73);
+    font-weight: bold;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-left: 45%;
+
+}
+.Action{
+    height: 70rem;
+    background-color:rgb(167, 166, 166);
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 120em 16em;
+    border-bottom-right-radius: 120em 16em;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px auto;
+}
+.image img{
+width: 50%;
+border-radius: 50%;
+}
+.box{
+    
+    background: rgb(25, 1, 48);
+    margin: 100px 0 0 -50px;
+    margin-bottom: 120px;
+    margin-right: 50px;
+    
+    
+}
+.box h1{
+    font-size: 30px;
+    font-family: 'Times New Roman'; 
+    font-family: 20px; 
+    text-align: center;
+    color: white;
+    margin-left:15px;
+}
+.box p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color:white;
+    margin-left:15px;
+}
+
+.col1 h1{
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    color: rgb(161, 88, 230);
+    text-align: center;
+    
+}
+.col1 p{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: black;
+}
+.col1{
+    margin-left: 45px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.work{
+    text-align: center;
+}
+.work h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:black;
+}
+.work .fa-brands{
+    font-size: 20px;
+    padding: 20px;
+    color: #311465;
+
+}
+.box .button{
+    margin-left: 100px;
+    padding: 10px;
+    color: black;
+    background: aquamarine;
+    margin-top: 40px;
+    border: none;
+    padding-top: 10px;
+    
+
+}
+
+
+
+
+
+
+
